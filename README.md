@@ -13,7 +13,7 @@ A simple and interactive web application built with Streamlit that allows users 
 ## 🛠️ Installation & Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/unit-currency-converter.git
+   git clone https://github.com/1089taha/unit-currency-convert.git
    cd unit-currency-converter
 
 2. **Create a Virtual Environment & Activate**  
@@ -31,39 +31,53 @@ A simple and interactive web application built with Streamlit that allows users 
    [api]
    API_KEY = "your_exchange_rate_api_key_here"
 
-4. **Run the Application**
-  ```bash
-  streamlit run app.py
+# Unit & Currency Converter 🌍💱
 
+This is a web-based unit and currency converter built using **Python** and **Streamlit**. It supports multiple conversion categories such as currency, length, weight, and temperature.
 
-## 🔑 Environment Variables / API Keys
+---
 
-The app uses ExchangeRate-API for live currency conversion.
+## 📌 Features
+✔️ Convert between different units (Currency, Length, Weight, Temperature).  
+✔️ Live currency conversion using **ExchangeRate-API**.  
+✔️ View **conversion history** with interactive graphs.  
+✔️ Clean and user-friendly interface with **Streamlit**.  
 
-🆓 Get a free API key: ExchangeRate-API Signup
+---
 
-## 🚀 Usage
+## 🚀 Usage Guide
 
-1. Select a Conversion Category from the sidebar (currency, temperature, length, etc.).
+1️⃣ **Select a Conversion Category** from the sidebar (Currency, Temperature, Length, etc.).  
+2️⃣ **Enter a Value & Choose Units** for conversion.  
+3️⃣ Click **"Convert"** to see results instantly.  
+4️⃣ View **Conversion History** and generate **interactive graphs**.  
 
-2. Enter Values & Choose Units for conversion.
+---
 
-3. Click "Convert" to see results instantly.
+## 🔧 Technologies Used
 
-4. View Conversion History and generate interactive graphs.
+- **Python 🐍** → Core logic and calculations  
+- **Streamlit 🎈** → Web app interface  
+- **Requests 🌐** → API calls to ExchangeRate-API  
+- **Matplotlib 📊** → Graph visualization for conversion history  
+- **Pandas 📈** → Data handling for historical records  
 
+---
 
-## 🛠️ Technologies Used
+## 🔑 API Key Setup
 
-1. **Python 🐍**: Core logic and calculations
+This app requires an API key from **ExchangeRate-API** for live currency conversion.  
 
-2. **Streamlit 🎈**: Web app interface
+🔗 [Get a Free API Key Here](https://www.exchangerate-api.com/)  
 
-3. **Requests 🌐**: API calls to ExchangeRate-API
+Once you have the API key, add it to your environment variables.
 
-4. **Matplotlib 📊**: Graph visualization for conversion history
+---
 
-5. **Pandas** 📈: Data handling for historical records
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
 
 
 ## 📞 Contact
